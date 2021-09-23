@@ -1,0 +1,48 @@
+package hello;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Scanner;
+
+//Average
+public class Main {
+    public static void main(String[] args) {
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("How many numbers do you have:");
+        int size = keyboard.nextInt();
+        double[] number = new double[size];
+
+        System.out.println("Enter " + number.length + " Numbers:");
+        double sum = 0;
+        for (int index = 0; index < number.length; index++) {
+            number[index] = keyboard.nextDouble();
+            sum = sum + number[index];
+        }
+        double average = sum / number.length;
+        System.out.println("The average Number is " + average);
+
+        System.out.println("The Numbers are");
+        for (int index = 0; index < number.length; index++) {
+            if (number[index] < average)
+                System.out.println(number[index] + " below average");
+            else if (number[index] > average)
+                System.out.println(number[index] + " above average");
+            else
+                System.out.println(number[index] + " the average");
+        }
+System.out.println("Sorted array");
+//Sorting array
+        int array[] = {2,5,9,11,2,1};
+        Arrays.sort(array);
+        for(int i=0; i<=array.length-1;i++){
+            System.out.println(array[i]);
+        }
+//Sort Min/Max
+        int[] nums={6,-1,-2,-3,0,1,2,3,4};
+        Arrays. sort(nums);
+        System. out. println("Minimum = " + nums[0]);
+        System. out. println("Maximum = " + nums[nums. length-1]);
+
+
+    }
+}
