@@ -1,0 +1,37 @@
+package com.company;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Welcome to ShakeShack");
+
+        String Menu[] = {"Cheese Burger", "Double Cheese Burger", "ShakeShack Special"};
+        String Order[] = {"Hungry", "Very Hungry", "Feast"};
+
+        System.out.println(Menu[2]);
+        System.out.println(Menu[1]);
+        System.out.println(Menu[1]);
+        System.out.println(Menu[0]);
+
+        System.out.println("Price of Burgers Max and Min Of each one +$+");
+
+        int[] nums = {5, 7, 10};
+        Arrays.sort(nums);
+        System.out.println("Minimum = " + nums[0]);
+        System.out.println("Maximum = " + nums[nums.length - 1]);
+
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("How many numbers do you have:");
+        int size = keyboard.nextInt();
+        double[] number = new double[size];
+
+
+
+
+        }
+
+    }
