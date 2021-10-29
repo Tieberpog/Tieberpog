@@ -88,3 +88,23 @@ public class Main {
                 (num1 + num2 + num3)  / 3);
     }
 }
+
+//exercise 5//
+
+package hello;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        { float Fahrenheit, Celsius;
+            Fahrenheit = 103;
+            Celsius  = ((Fahrenheit-32)*5)/9;
+            System.out.println("Temperature in celsius is: "+Celsius);
+
+        }
+    }
+}
+
+//Note the changes in Fahreheit"//
