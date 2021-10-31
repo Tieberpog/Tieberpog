@@ -172,3 +172,38 @@ public class Main {
     }
 }
 
+//Exercise 3//
+package com.company;
+
+
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+
+
+        int my_array[] = {3, 2, 3, 2, 5, 9, 7, 2, 9, 2};
+        int sum = 0;
+
+        for (int i : my_array)
+            sum += i;
+        System.out.println("The sum is " + sum);
+    }
+}
+
+
+
+
+//Exercise 4// Unsure\
+
+public static int getMaxValue(int[] array) {
+    int maxValue = array[0];
+    for (int i = 1; i < array.length; i++) {
+        if (array[i] > maxValue) {
+            maxValue = array[i];
+            
+public static int getMinValue(int[] array) {
+    int minValue = array[0];
+    for (int i = 1; i < array.length; i++) {
+        if (array[i] < minValue) {
+            minValue = array[i];
