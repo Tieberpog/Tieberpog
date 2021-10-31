@@ -33,6 +33,32 @@ public class Main {
         int num2 = in.nextInt();
 
         System.out.println(num1 + " x " + num2 + " = " + num1 * num2);
+        
+        
+        
+        //Exercise 2//
+        
+        package com.company;
+
+
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+
+
+
+
+                Scanner input = new Scanner(System.in);
+
+                System.out.print("Input for inch: ");
+                double inch = input.nextDouble();
+                double meters = inch * 0.0254;
+                System.out.println(inch + " inch is " + meters + " meters");
+
+            }
+        }
+
     }
       }
 
